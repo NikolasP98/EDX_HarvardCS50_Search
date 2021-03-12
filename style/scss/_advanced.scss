@@ -1,0 +1,40 @@
+.title_text {
+  align-self: center;
+  color: gray;
+  margin-top: 3rem;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.filter_group {
+  align-self: center;
+  margin-top: 3rem;
+
+  label {
+    font-size: 2rem;
+    padding-left: 0.5rem;
+    color: gray;
+  }
+  .tinput {
+    padding: 0 20px 0 20px;
+    height: 40px;
+    width: 460px;
+    margin-top: 1rem;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    display: block;
+  }
+}
+
+.adv_button {
+  border: 1px solid #3577e9;
+  border-radius: 2px;
+  color: white;
+  background-color: #4c8bf5;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  margin: 3rem 0.5rem 0 0.5rem;
+}
+
+.img_adv {
+  margin-top: -4rem;
+}

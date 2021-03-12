@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Advanced Search</title>
+    <link rel="icon" type="image/png" href="assets/favicon.webp" />
+    <link rel="stylesheet" href="style/css/main.min.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="./images.html">Images</a></li>
+        <li><a href="./index.html">Google Search</a></li>
+      </ul>
+    </nav>
+    <section class="main home">
+      <img
+        id="logo_image"
+        class="img_adv"
+        src="assets/google_logo.png"
+        alt="google_logo"
+      />
+      <div class="form_element">
+        <form action="https://google.com/search">
+          <span class="title_text">Find pages with...</span>
+          <div class="filter_group">
+            <label for="filter1">all these words:</label>
+            <input id="filter1" class="tinput" type="text" name="as_q" />
+          </div>
+
+          <div class="filter_group">
+            <label for="filter1">this exact word or phrase:</label>
+            <input id="filter2" class="tinput" type="text" name="as_epq" />
+          </div>
+          <div class="filter_group">
+            <label for="filter1">any of these words:</label>
+            <input id="filter3" class="tinput" type="text" name="as_oq" />
+          </div>
+          <div class="filter_group">
+            <label for="filter1">none of these words:</label>
+            <input id="filter4" class="tinput" type="text" name="as_eq" />
+          </div>
+
+          <div class="sub_buttons">
+            <button type="submit" class="adv_button">Advanced Search</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

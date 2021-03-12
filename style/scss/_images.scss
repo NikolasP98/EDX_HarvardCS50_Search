@@ -1,0 +1,19 @@
+.images {
+  .logo_container {
+    margin-top: 11rem;
+    display: flex;
+    justify-content: center;
+    .google_imglogo {
+      width: 272px;
+      height: 92px;
+      background-image: url("/assets/google_logo.png");
+      background-repeat: no-repeat;
+      span {
+        position: relative;
+        color: #4285f4;
+        left: 215px;
+        top: 76px;
+      }
+    }
+  }
+}
